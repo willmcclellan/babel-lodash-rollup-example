@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "yarn build:1 && yarn build:2 && yarn build:3",
+    "build": "yarn build:1 && yarn build:2 && yarn build:3 && yarn build:4",
     "build:1": "node_modules/.bin/rollup --config rollup.config.1.js",
     "build:2": "node_modules/.bin/rollup --config rollup.config.2.js",
     "build:3": "node_modules/.bin/rollup --config rollup.config.3.js",
+    "build:4": "node_modules/.bin/rollup --config rollup.config.4.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -21,6 +22,7 @@
     "rollup-plugin-node-resolve": "^3.0.0"
   },
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "lodash-es": "^4.17.4"
   }
 }
